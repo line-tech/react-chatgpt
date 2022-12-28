@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Cantarell:i|Droid+Serif:700");
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "cantarell", sans-serif;
+
+  }
+
+  body {
+        margin: 0;
+        padding: 0;
+  }
+
+  textarea,
+  select {
+          padding: 10px 15px;
+          margin-bottom: 15px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+  }
+  .notification__form {
+    width: 80%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .homeContainer h3,
+  textarea {
+    margin-bottom: 20px;
+
+  }
+
+  .notification__form button {
+    width: 200px;
+    padding: 15px 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #82aae3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .homeContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
